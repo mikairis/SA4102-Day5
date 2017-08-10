@@ -30,6 +30,11 @@ namespace Day5
                 {
                     count++;
                 }
+                else
+                {
+                    Console.WriteLine("There is no " + input + " in the array!");
+                    goto Start;
+                }
             }
             Console.WriteLine("The number " + input + " appeared " + count + " times!");
             Console.ReadKey();
